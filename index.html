@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> my profile </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script language = "javascript" type = "text/javascript">
+
+function over()
+{
+document.getElementById('d2').innerHTML="<font size=5>1. Photography<br>2. Reading books<br>3. Embroidery</font>";
+}
+function inbox()
+{
+document.getElementById('d3').innerHTML="<font size=6> To become an autocrat in automation</font>";
+}
+
+
+function out()
+{
+document.getElementById('d2').innerHTML="HOBBIES";
+}
+function outbox()
+{
+document.getElementById('d3').innerHTML="GOALS";
+}
+</script>
+</head>
+<body>
+<style>
+#d1
+{
+	margin-left: 500px;
+	margin-top: 80px;
+	height: 150px;
+	width: 200px;
+	background-color: rgba(255,0,0,0.5);
+	color: white;
+	font-weight: bolder;
+	border-radius: 20px;
+	padding-left: 60px;
+	padding-top: 40px;
+	font-size: 2em;
+	positon: absolute;
+	box-shadow: 4px 4px 10px black;	
+}
+#d2
+{
+-webkit-transform: rotate(-20deg);
+margin-left: 800px;
+margin-top: 5px;
+height: 200px;
+width: 400px;
+background-color: rgba(0,0,255,0.5);
+position: absolute;
+box-shadow: 4px 4px 10px black;
+font-size: 3em;
+font-style: italic;
+font-weight: bolder;
+text-align: center;
+color: white;
+}
+#d3
+{
+-webkit-transform: rotate(20deg);
+margin-left: 50px;
+margin-top: 5px;
+height: 200px;
+width: 400px;
+background-color: rgba(0,255,0,0.5);
+position: absolute;
+box-shadow: 4px 4px 10px black;
+font-size: 3em;
+font-style: italic;
+font-weight: bolder;
+text-align: center;
+color: black;
+}
+ 
+h1
+{
+color: green;
+font-size: 4em;
+font-style: italic;
+font-weight: bolder;
+text-shadow: 4px 4px 10px black;
+}
+body
+{
+background: -webkit-radial-gradient(pink,green);
+}
+
+</style>
+
+<h1 align=center>MY PROFILE</h1>
+<div id="d1" ><b> SWETHA <br> ICE 2018 <br> NIT Trichy </b></div>
+<div id="d2" onmouseover="over()" onmouseout="out()"><b> HOBBIES </b></div>
+<div id="d3" onmouseover="inbox()" onmouseout="outbox()"><b> GOALS </b> </div>
+<div id="d4"> </div>
+<div id="d5"> </div>
+<div id="d6"> </div>
+<div id="d7"> </div>
+
+<a href="calculator.html"> CALCULATOR </a>
+
+</body>
+</html>
